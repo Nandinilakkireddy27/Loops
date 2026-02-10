@@ -1,0 +1,17 @@
+package do_while;
+
+public class Five_table {
+	public static void mul(int num, int mul) {
+		do {
+			System.out.println(num + " * " + mul +" = " + num*mul);
+			mul++;
+		}
+		while(mul<=10);
+	}
+
+	public static void main(String[] args) {
+		mul(5,1);
+
+	}
+
+}
